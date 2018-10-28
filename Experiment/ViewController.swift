@@ -283,6 +283,7 @@ extension ViewController {
         cancelRequest.disposed(by: disposeBag)
     }
     
+    /// Send complex url request
     func sendComplexUrlRequest() {
 
         // Show Loader
